@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(to right, aqua,rgb(49, 49, 127));
+}
+.clock{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:100vh;
+    font-size: 100px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+}
+.hour,.min,.sec{
+    border:2px solid white;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.am{
+    font-size: 30px;
+    margin-top: 150px;
+    color: black;
+    font-size: 30px;
+    color:red
+}
